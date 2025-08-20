@@ -1,0 +1,110 @@
+.loginTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginBg{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    opacity: 80%;
+}
+
+.loginMainHeading{
+    position: absolute;
+    font-size: 120px;
+    color: white;
+    font-family: "Style Script";
+    text-shadow: 3px 2px 2px rgba(1, 68, 33, 0.76);
+}
+
+.loginMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginLeft, .loginRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.loginHeadingLogin, .loginHeadingAccount{
+    font-size: 50px;
+    font-family: Rubik;
+}
+
+.loginHeadingLogin{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.loginLeftSection, .loginRightSection{
+    margin: 50px 0;
+    padding: 50px;
+    border: 2px solid #78866b;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.72);
+    box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.72);
+}
+
+.loginRightSection{
+    display: flex;
+}
+
+.loginText{
+    font-size: 20px;
+    margin: 20px;
+    font-family: "Poppins";
+}
+
+.loginInput{
+    padding: 10px;
+    width: 250px;
+    margin: 5px 20px 30px 20px;
+    border-radius: 5px;
+    border: 2px solid #78866b;
+    font-family: "Poppins";
+}
+
+.forgotPassword{
+    margin: -20px 0 0 20px;
+    cursor: pointer;
+    color: #78866b;
+    font-family: "Poppins";
+}
+
+.forgotPassword:hover{
+    color: rgb(60, 60, 60);
+    transition-duration: 0.5s;
+}
+
+.rememberText{
+    margin-left: 4px;
+    cursor: pointer;
+    font-family: "Poppins";
+}
+
+.rememberInput{
+    margin: 30px 0 20px 15px;
+    width: 15px;
+    height: 15px;
+}
+
+.button{
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 45px;
+    background-color: #4e3621;
+    color: #FEF6F1;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Poppins";
+}

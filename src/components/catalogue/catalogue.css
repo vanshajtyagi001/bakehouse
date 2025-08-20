@@ -1,0 +1,60 @@
+.introCatalogue{
+    padding: 20px 20px 30px 20px;
+    border-bottom: 3px solid rgba(198, 61, 61, 0.386);
+}
+
+.introItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.introItem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid brown;
+    padding: 30px;
+    margin-left: -40px;
+    list-style: none;
+}
+
+.introItemImg{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px outset rgb(255, 172, 28);
+    transition: width 0.5s ease, height 0.5s ease;
+}
+
+.introItemImg:hover{
+    height: 230px;
+    width: 230px;
+    cursor: pointer;
+}
+
+.introItemName{
+    font-size: 23px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.introItemOrderButton{
+    border: none;
+    background-color: #78866b;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 13px 13px 13px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: Oswald;
+    -webkit-box-shadow: inset 0px 0px 12px 4px rgba(1, 68, 33, 0.18);
+        box-shadow: inset 0px 0px 12px 4px rgba(1, 68, 33, 0.18);
+}
+
+.introItemOrderButton:hover{
+    background-color: #014421;
+    transition-duration: 0.4s;
+}

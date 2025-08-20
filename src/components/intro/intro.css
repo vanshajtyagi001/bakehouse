@@ -1,0 +1,82 @@
+.intro{
+    background-color: #fce9dd;
+}
+
+.introTop{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.introTopBg{
+    width: 100%;
+    position: absolute;
+    object-fit: cover; 
+    opacity: 30%;
+    max-height: 100%;
+}
+
+.introTopImg{
+    display: flex;
+    margin: 17px;
+    width: 80%;
+    height: calc(100vh - 34px);
+    object-fit: contain ;
+    position: relative;
+}
+
+.introTopText{
+    position: absolute;
+    margin-top: -10px;
+    color: #fce9dd;
+    font-size: 140px;
+    font-family: "Style Script";
+    text-shadow: 3px 2px 2px rgba(124, 95, 71, 0.76);
+}
+
+.introTopSinceWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #78866b;
+    height: 150px;
+    width: 300px;
+    border-radius: 160px 160px 0 0;
+    position: absolute;
+    margin-top: calc(80vh - 3px);
+    z-index: 0;
+}
+
+.introTopSince{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    z-index: 1;
+    margin: -10px 0;
+    font-family: "Playfair Display";
+    font-style: italic;
+}
+
+.introCatalogueText{
+    display: flex;
+    margin: 10px;
+    padding: 50px 0 20px 0;
+    font-size: 50px;
+    justify-content: center;
+    border-top: 3px groove rgba(198, 61, 61, 0.386);
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+.introFrameText{
+    margin: 40px;
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 300;
+}
+
+.introFrameVideo{
+    object-fit: cover;
+    margin-bottom: 50px;
+}
