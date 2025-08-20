@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bake House Bakery
 
 ![Screenshot 2025-01-06 232647](https://github.com/user-attachments/assets/3c778000-9a6e-42d8-9cfd-2fa5e354b794)
@@ -57,3 +58,6 @@ You can view the live version of the project at: https://bake-house-bakery.verce
 ---
 
 Feel free to contribute to the project by submitting issues or pull requests. Enjoy exploring the Bakery Website!
+=======
+# bakehouse
+>>>>>>> 3da73bd5c52ae0d3fb55aa0b3f6a12a94f22ee79
